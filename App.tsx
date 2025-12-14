@@ -58,7 +58,7 @@ const Header: React.FC<any> = ({ currentPage, onNavigate, openBooking, isDarkMod
       <div className="container mx-auto px-6 flex justify-between items-center">
         <button onClick={() => onNavigate('home')} className="flex items-center gap-4 group">
           <img 
-            src="/images/21.jpg" 
+            src="./images/21.jpg" 
             alt="Logo" 
             className="w-14 h-14 md:w-16 md:h-16 object-contain group-hover:scale-105 transition-transform duration-300 dark:invert" 
           />
@@ -362,5 +362,6 @@ const App: React.FC = () => {
     </div>
   );
 };
+
 
 export default App;
